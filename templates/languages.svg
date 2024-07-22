@@ -33,12 +33,10 @@ h2 {
   font-size: 16px;
   font-weight: 600;
   color: rgb(36, 41, 46);
-  fill: rgb(36, 41, 46);
 }
 
 #gh-dark-mode-only:target h2 {
-  color: #c9d1d9;
-  fill: #c9d1d9;
+  color: #eee;
 }
 
 ul {

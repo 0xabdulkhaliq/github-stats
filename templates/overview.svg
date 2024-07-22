@@ -32,17 +32,16 @@ table {
   table-layout: auto;
 }
 
-th {
-  padding: 0.5em;
-  padding-top: 0;
+th { 
+  padding: 0 0 .25em .25em;
+  font-size: 16px;
   text-align: left;
-  font-size: 14px;
   font-weight: 600;
-  color: rgb(3, 102, 214);
+  color: rgb(36, 41, 46);
 }
 
 #gh-dark-mode-only:target th {
-  color: #58a6ff;
+  color: #eee;
 }
 
 td {
@@ -64,13 +63,13 @@ tr {
 }
 
 .octicon {
-  fill: rgb(88, 96, 105);
+  fill: #4c71f2;
   margin-right: 1ch;
   vertical-align: top;
 }
 
 #gh-dark-mode-only:target .octicon {
-  fill: #8b949e;
+  fill: #58a6ff;
 }
 
 @keyframes slideIn {
